@@ -1,11 +1,14 @@
 package hr.pmf.math.android.geotagging;
 
+import hr.pmf.math.android.geotagging.dao.DAO;
+import hr.pmf.math.android.geotagging.dao.DAOProvider;
 import android.R;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 
 public class AddActivity extends ActionBarActivity {
 
@@ -40,11 +43,14 @@ public class AddActivity extends ActionBarActivity {
 	}
 	
 	public void okButtonClick(View view){
-		
+		DAO dao = DAOProvider.getDAO(this);
+		EditText t ;
+		EditText d ;
+		dao.addEntry(t.getText(), d.getText(), path);
+		this.finish();
 	}
 	
 	public void cancelButtonClick(View view){
-		
 		this.finish();
 		
 	}
