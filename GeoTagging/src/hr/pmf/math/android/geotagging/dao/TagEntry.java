@@ -5,12 +5,18 @@ public class TagEntry {
 	private String title;
 	private String description;
 	private String path;
-	
+
 	public TagEntry(String id, String title, String description, String path) {
 		super();
 		this.id = id;
 		this.title = title;
+		if (title == null) {
+			this.title = "";
+		}
 		this.description = description;
+		if (description == null) {
+			this.description = "";
+		}
 		this.path = path;
 	}
 
@@ -29,6 +35,5 @@ public class TagEntry {
 	public String getPath() {
 		return path;
 	}
-	
-	
+
 }
