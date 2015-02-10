@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
@@ -14,3 +15,18 @@
     <string name="cancel_button_text">Odustani</string>
 
 </resources>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoTagging</string>
+    <string name="action_settings">Postavke</string>
+    <string name="dodaj_button">Dodaj novi tag</string>
+    <string name="pregledaj_button">Pogledaj tagove</string>
+    <string name="title_activity_view">View Tags</string>
+    <string name="title_activity_add">Dodaj tag</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
+
+>>>>>>> 51017f0304dae45c8e1a5eaf7ca242045d4e5996
