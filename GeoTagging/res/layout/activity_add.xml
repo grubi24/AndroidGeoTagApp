@@ -48,7 +48,8 @@
         android:id="@+id/addImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/add_image_button" />
+        android:text="@string/add_image_button"
+        android:onClick="addImageClick" />
 
 
     <RelativeLayout
@@ -61,7 +62,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
-            android:text="@string/ok_button_text" />
+            android:text="@string/ok_button_text"
+            android:onClick="okButtonClick" />
 
         <Button
             android:id="@+id/cancelButton"
@@ -69,7 +71,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:text="@string/cancel_button_text" />
+            android:text="@string/cancel_button_text"
+            android:onClick="cancelButtonClick" />
 
     </RelativeLayout>
 

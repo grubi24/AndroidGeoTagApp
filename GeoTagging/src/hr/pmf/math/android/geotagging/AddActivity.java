@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class AddActivity extends ActionBarActivity {
 
@@ -32,4 +33,19 @@ public class AddActivity extends ActionBarActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}*/
+	
+	public void addImageClick(View view){
+		
+		
+	}
+	
+	public void okButtonClick(View view){
+		
+	}
+	
+	public void cancelButtonClick(View view){
+		
+		this.finish();
+		
+	}
 }
