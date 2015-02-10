@@ -5,8 +5,12 @@
     <string name="action_settings">Postavke</string>
     <string name="dodaj_button">Dodaj novi tag</string>
     <string name="pregledaj_button">Pogledaj tagove</string>
-    <string name="title_activity_view">View Tags</string>
     <string name="title_activity_add">Dodaj tag</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title_text">Naslov</string>
+    <string name="description_text">Opis</string>
+    <string name="image_text">Slika</string>
+    <string name="add_image_button"> Dodaj sliku</string>
+    <string name="ok_button_text">Dodaj</string>
+    <string name="cancel_button_text">Odustani</string>
 
 </resources>

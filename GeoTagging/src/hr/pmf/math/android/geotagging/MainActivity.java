@@ -40,17 +40,17 @@ public class MainActivity extends ActionBarActivity {
 	}
 	
 	public void seeButtonClick(View view){
-		Intent i = new Intent(this,AddActivity.class);
+		Intent i = new Intent(this,ViewActivity.class);
 		startActivity(i);
 	}
 	
 	public void addButtonClick(View view){
-		Intent i = new Intent(this,ViewActivity.class);
+		Intent i = new Intent(this,AddActivity.class);
 		startActivity(i);
 		
 	}
 	
-	@Override
+	/*@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
@@ -67,5 +67,5 @@ public class MainActivity extends ActionBarActivity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
-	}
+	}*/
 }
