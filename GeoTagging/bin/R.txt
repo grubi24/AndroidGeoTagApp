@@ -443,7 +443,7 @@ int id action_menu_presenter 0x7f0c0006
 int id action_mode_bar 0x7f0c0042
 int id action_mode_bar_stub 0x7f0c0041
 int id action_mode_close_button 0x7f0c0034
-int id action_settings 0x7f0c0054
+int id action_settings 0x7f0c0055
 int id activity_chooser_view_content 0x7f0c0035
 int id adjust_height 0x7f0c0009
 int id adjust_width 0x7f0c000a
@@ -475,6 +475,7 @@ int id hybrid 0x7f0c000c
 int id icon 0x7f0c003a
 int id ifRoom 0x7f0c002a
 int id image 0x7f0c0037
+int id list 0x7f0c0054
 int id listMode 0x7f0c0020
 int id list_item 0x7f0c0039
 int id map 0x7f0c0053
@@ -541,8 +542,10 @@ int layout abc_search_dropdown_item_icons_2line 0x7f030014
 int layout abc_search_view 0x7f030015
 int layout abc_simple_dropdown_hint 0x7f030016
 int layout activity_main 0x7f030017
-int layout support_simple_spinner_dropdown_item 0x7f030018
+int layout activity_view 0x7f030018
+int layout support_simple_spinner_dropdown_item 0x7f030019
 int menu main 0x7f0d0000
+int menu view 0x7f0d0001
 int raw gtm_analytics 0x7f050000
 int string abc_action_bar_home_description 0x7f070024
 int string abc_action_bar_home_description_format 0x7f070028
@@ -597,6 +600,7 @@ int string decline 0x7f070003
 int string hello_world 0x7f070034
 int string store_picture_message 0x7f070001
 int string store_picture_title 0x7f070000
+int string title_activity_view 0x7f070036
 int string wallet_buy_button_place_holder 0x7f070022
 int style AppBaseTheme 0x7f0600f0
 int style AppTheme 0x7f0600f1
