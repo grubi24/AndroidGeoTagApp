@@ -1,6 +1,5 @@
 package hr.pmf.math.android.geotagging;
 
-import android.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -40,13 +39,13 @@ public class MainActivity extends ActionBarActivity {
 	}
 	
 	public void seeButtonClick(View view){
-		Intent i = new Intent(this,AddActivity.class);
+		Intent i = new Intent(this,ViewActivity.class);
 		startActivity(i);
 	}
 	
 	public void addButtonClick(View view){
-		Intent i = new Intent(this,ViewActivity.class);
-		startActivity(i);
+//		Intent i = new Intent(this,AddActivity.class);
+//		startActivity(i);
 		
 	}
 	
